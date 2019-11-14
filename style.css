@@ -1,0 +1,44 @@
+* {
+  font-family: 'Lato', serif;
+  color: #fff;
+}
+
+html, body {
+  background-color: #010101;
+}
+
+.profile {
+  padding: 1.3rem .5rem 0rem .5rem;
+}
+
+.profile span.name {
+  font-size: 1.3rem;
+}
+
+.profile p.content {
+  margin-top: .3rem;
+  font-size: .8rem;
+}
+
+.profile p.sns i {
+  padding-right: .3rem;
+}
+
+.list {
+  padding: 1rem;
+}
+
+.list img {
+  cursor: pointer;
+  margin-bottom: 1.2rem;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-filter: brightness(0.7);
+          filter: brightness(0.7);
+}
+
+.list img:hover {
+  -webkit-filter: brightness(1);
+          filter: brightness(1);
+}
+/*# sourceMappingURL=style.css.map */

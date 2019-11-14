@@ -1,0 +1,37 @@
+*{
+    font-family: 'Lato', serif; 
+    color: #fff;
+}
+
+html, body{
+    background-color: #010101;
+} 
+.profile{
+    padding: 1.3rem .5rem 0rem .5rem;
+    span.name{
+        font-size: 1.3rem;
+    }
+    p.content{
+        margin-top: .3rem;
+        font-size: .8rem;
+    }
+    p.sns{
+        i{
+            padding-right: .3rem;
+        }
+    }
+}
+
+.list{
+    padding: 1rem;
+    img{
+        cursor: pointer;
+        margin-bottom: 1.2rem;
+        transition: all 0.3s;
+        filter: brightness(0.7);
+        &:hover {
+            filter: brightness(1);
+        }
+    }
+
+}
