@@ -9,16 +9,31 @@ html, body{
 .profile{
     padding: 1.3rem .5rem 0rem .5rem;
     span.name{
-        font-size: 1.3rem;
+        font-family: 'Vollkorn', serif;
+        font-size: 1.6rem;
     }
     p.content{
-        margin-top: .3rem;
-        font-size: .8rem;
+        margin-top: 1.5rem;
+        font-size: .7rem;
+        line-height: 1.6;
     }
     p.sns{
         i{
             padding-right: .3rem;
         }
+    }
+    .list-group{
+        .list-group-item{
+            cursor: pointer;
+            padding: .1rem 0rem;
+            background-color: transparent;
+            opacity: .8;
+            transition: all 0.2s;
+            &:hover{
+                opacity: 1;
+            }
+        }
+        margin-bottom: 1.5rem;
     }
 }
 
@@ -28,7 +43,8 @@ html, body{
         cursor: pointer;
         margin-bottom: 1.2rem;
         transition: all 0.3s;
-        filter: brightness(0.7);
+        filter: brightness(0.8);
+        filter: sepia(20%);
         &:hover {
             filter: brightness(1);
         }

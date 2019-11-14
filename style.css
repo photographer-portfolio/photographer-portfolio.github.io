@@ -12,16 +12,35 @@ html, body {
 }
 
 .profile span.name {
-  font-size: 1.3rem;
+  font-family: 'Vollkorn', serif;
+  font-size: 1.6rem;
 }
 
 .profile p.content {
-  margin-top: .3rem;
-  font-size: .8rem;
+  margin-top: 1.5rem;
+  font-size: .7rem;
+  line-height: 1.6;
 }
 
 .profile p.sns i {
   padding-right: .3rem;
+}
+
+.profile .list-group {
+  margin-bottom: 1.5rem;
+}
+
+.profile .list-group .list-group-item {
+  cursor: pointer;
+  padding: .1rem 0rem;
+  background-color: transparent;
+  opacity: .8;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.profile .list-group .list-group-item:hover {
+  opacity: 1;
 }
 
 .list {
@@ -33,8 +52,10 @@ html, body {
   margin-bottom: 1.2rem;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  -webkit-filter: brightness(0.7);
-          filter: brightness(0.7);
+  -webkit-filter: brightness(0.8);
+          filter: brightness(0.8);
+  -webkit-filter: sepia(20%);
+          filter: sepia(20%);
 }
 
 .list img:hover {
